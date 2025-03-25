@@ -6,7 +6,7 @@ import sys
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 
 app = Flask(__name__)
-bot = telebot.TeleBot("8194723443:AAHwknMCjVW7e3XAd68ASzYCYRmHs0uD-jo")
+bot = telebot.TeleBot("your API key")
 
 # Store subscriber chat IDs
 subscribers = set()
